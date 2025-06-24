@@ -46,7 +46,7 @@ export default function CreateForm() {
     toast.success("Student added successfully!");
   }
   return (
-    <div className=" m-auto justify-center items-center bg-red-800 h-screen w-screen">
+    <div className="flex m-auto justify-center items-center bg-red-800 h-screen w-screen">
       <div className="mx-auto max-w-2xl text-center items-center justify-center shadow-lg p-8 rounded-lg bg-white">
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">

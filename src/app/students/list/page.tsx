@@ -18,7 +18,7 @@ export default async function TableDemo() {
   const students = await getAllStud();
 
   return (
-    <div className="bg-red-800 justify-center items-center h-screen w-screen">
+    <div className="flex bg-red-800 justify-center items-center h-screen w-screen">
       <div className="justify-center items-center w-[700px] rounded-2xl shadow-lg bg-white p-8 m-auto">
         <Table>
           <TableCaption>A list of students.</TableCaption>
